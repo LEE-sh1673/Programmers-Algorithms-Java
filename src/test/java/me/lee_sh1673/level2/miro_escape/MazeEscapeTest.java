@@ -13,7 +13,7 @@ class MazeEscapeTest {
     };
 
     @Test
-    @DisplayName("sol() 테스트")
+    @DisplayName("predict() 테스트")
     void should_find_correct_path() {
         MazeEscape mazeEscape = new MazeEscape(maps[0]);
         assertThat(mazeEscape.sol()).isEqualTo(16);

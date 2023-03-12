@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 class BridgeTruckTest {
 
     @Test
-    @DisplayName("sol() 테스트")
+    @DisplayName("predict() 테스트")
     void should_find_correct_path() {
         BridgeTruck bridgeTruck = new BridgeTruck(2, 10, new int[]{7, 4, 5, 6});
         assertThat(bridgeTruck.sol()).isEqualTo(8);
